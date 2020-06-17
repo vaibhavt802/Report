@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp"
+    android:background="@drawable/background_image"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="Your Name"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/edtmobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="Mobile number"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/edtsuspect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="No. of Suspect"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/edtlocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="Enter location"
+            android:textSize="20sp"
+            android:editable="false"/>
+
+        <Button
+            android:id="@+id/btnlocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/color_one"
+            android:text="Click here to autofill location"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:layout_alignParentBottom="true"/>
+
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/color_one"
+            android:text="Submit"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:layout_alignParentBottom="true"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/color_one"
+        android:text="logout"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
